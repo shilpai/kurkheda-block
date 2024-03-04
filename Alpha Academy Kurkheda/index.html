@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- External stylesheets -->
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="coursesMediaQuery.css" />
+    <link rel="stylesheet" href="sessionalCourses.css" />
+    <link rel="stylesheet" href="sessionalCoursesMediaQuery.css" />
+    <link rel="stylesheet" href="meetourTrainer.css" />
+    <link rel="stylesheet" href="testimonials.css" />
+    <link rel="stylesheet" href="knowYourBlock.css" />
+    <link rel="stylesheet" href="dropdown.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <!-- Bootstrap stylesheet -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Font Awesome stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- start navigation bar -->
+    <div class="navigation-bar position-sticky top-0 p-0">
+      <nav class="navbar navbar-expand-md navbar-light bg-white text-white">
+        <div class="container-fluid ms-5 me-5">
+          <a class="navbar-brand fs-2 fw-bolder" href="#"
+            ><img src="Assets/alphalogo.png" alt="" height="60px" width="70px"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  courses
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="#">HTML</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">CSS</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">ReactJS</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">JAVA</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Benifits</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#trainers"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Our Team</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
+                  >Testimonial</a
+                >
+              </li>
+              <li></li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#knowYourBlock"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >knowYourBlock</a
+                >
+              </li>
+              <li>
+                <button type="button" class="btn btn-success">
+                  Register Now
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- end navigation bar -->
+    <!-- bacground-image start-->
+    <div class="container-fluid p-0 m-0">
+      <!-- banner start -->
+      <div class="banner-container">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active banner-img">
+              <img
+                src="Assets/alpha-lab-1.jpg"
+                class="d-block w-100 bannerImg"
+                alt="..."
+              />
+              <div class="carousel-caption">
+                <h1 class="fw-bolder text-uppercase">Kurkheda Block</h1>
+                <p>Elevate your skills, conquer the web.</p>
+              </div>
+            </div>
+            <div class="carousel-item banner-img">
+              <img
+                src="Assets/alpha-lab-2.jpg"
+                class="d-block w-100 bannerImg"
+                alt="..."
+              />
+              <div class="carousel-caption">
+                <h5>Second slide label</h5>
+                <p>
+                  Some representative placeholder content for the second slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item banner-img">
+              <img
+                src="Assets/alpha-lab-3.jpg"
+                class="d-block w-100 bannerImg"
+                alt="..."
+              />
+              <div class="carousel-caption">
+                <h5>Third slide label</h5>
+                <p>
+                  Some representative placeholder content for the third slide.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!-- banner end -->
+      <h1 class="main-course text-center fs-1 fw-bolder p-5">
+        Profetional Full-Stack Web Development
+      </h1>
+      <!-- courses start -->
+      <div class="container">
+        <h3 class="text-dark text-center fs-1">COURSES</h3>
+        <div class="courses">
+          <div class="row p-3">
+            <div class="col-sm-4">
+              <div class="card">
+                <img
+                  src="Assets/complete-guide-to-software-testing-automation-thumbnail.webp"
+                  class="card-img-top"
+                  alt="..."
+                  height="230"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    <b class="fs-5">Front-end Development</b><br />
+                    A Front-end Developer builds the front-end portion which is
+                    visible to Users on the website by using 4 technologies i.e.
+                    HTML, CSS, JavaScript, and ReactJS.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img
+                  src="Assets/istockphoto-1489444307-612x612.jpg"
+                  class="card-img-top"
+                  alt="..."
+                  height="230"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    <b class="fs-5">UI/UX Designing</b><br />UX design stands
+                    for User Experience design and UI design stands for User
+                    Interface design. We will introduce to the Figma Technology.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img
+                  src="Assets/complete-guide-to-software-testing-automation-thumbnail.webp"
+                  class="card-img-top"
+                  alt="..."
+                  height="230"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    <b class="fs-5">Back-end Development</b><br />Back-end
+                    Development is a developer working on server-side software,
+                    which focus on everything you can't see on a website.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- courses end -->                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+
+      <!-- Our trainers secrion start -->
+      <div id="trainers">
+        <div class="container">
+          <h3 class="sub-title text-dark text-center fs-1">TRAINERS</h3>
+          <div class="trainer-list text-center">
+            <div class="col-lg-4">
+              <div class="trainer">
+                <img src="Assets/teacher5.jpg" />
+                <h3>Anthony Sycamore</h3>
+                <div class="layer">
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quae, numquam assumenda iure quis corrupti nihil dignissimos
+                    quas dolor error, esse est distinctio quam doloremque
+                    necessitatibus quisquam porro molestias. Nihil, id!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="trainer">
+                <img src="Assets/teacher6.jpg" />
+                <h3>Anthony Sycamore</h3>
+                <div class="layer">
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quae, numquam assumenda iure quis corrupti nihil dignissimos
+                    quas dolor error, esse est distinctio quam doloremque
+                    necessitatibus quisquam porro molestias. Nihil, id!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="trainer">
+                <img src="Assets/teacher5.jpg" />
+                <h3>Anthony Sycamore</h3>
+                <div class="layer">
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quae, numquam assumenda iure quis corrupti nihil dignissimos
+                    quas dolor error, esse est distinctio quam doloremque
+                    necessitatibus quisquam porro molestias. Nihil, id!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Our trainers section end -->
+
+      <!-- testimonial section start -->
+      <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+              id="person"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+              id="person"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+              id="person"
+            ></button>
+          </div>
+
+          <div class="testimonial-inner">
+            <div class="carousel-item active">
+              <div class="title fs-4">testimonials</div>
+              <br />
+              <div class="name fs-4">WHAT PEOPLE SAY</div>
+              <br />
+              <div class="caoma text-light"><b>,,</b></div>
+              <br />
+              <div class="para">
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                porro ullam a, molestias, hic.<br />
+                accusamus temporibus enim eligendi nostrum architecto,
+                aspernatur assumenda quibusdam fugit quasi molestiae omnis saepe
+                obcaecati atque.<br />
+                accusamus temporibus enim eligendi nostrum architecto,
+                aspernatur"
+              </div>
+              <br />
+              <div class="endname text-light">David Mattinson New York</div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="title">testimonials</div>
+              <br />
+              <div class="name">WHAT PEOPLE SAY</div>
+              <br />
+              <div class="caoma text-light">,,</div>
+              <br />
+              <div class="para">
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                porro ullam a, molestias, hic.<br />
+                accusamus temporibus enim eligendi nostrum architecto,
+                aspernatur assumenda quibusdam fugit quasi molestiae omnis saepe
+                obcaecati atque.<br />
+                accusamus temporibus enim eligendi nostrum architecto,
+                aspernatur."
+              </div>
+              <br />
+              <div class="endname text-light">David Mattinson New York</div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="title">testimonials</div>
+              <br />
+              <div class="name">WHAT PEOPLE SAY</div>
+              <br />
+              <div class="caoma text-light">,,</div>
+              <br />
+              <div class="para">
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                porro ullam a, molestias, hic.<br />
+                accusamus temporibus enim eligendi nostrum architecto,
+                aspernatur assumenda quibusdam fugit quasi molestiae omnis saepe
+                obcaecati atque.<br />
+                accusamus temporibus enim eligendi nostrum architecto,
+                aspernatur."
+              </div>
+              <br />
+              <div class="endname text-light">David Mattinson New York</div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!-- testimonial section end -->
+
+      <!-- know your Block section start -->
+      <div class="container-fluid p-0">
+        <div class="knowUrBlock-bg p-0" id="knowYourBlock">
+          <div class="blurBackground p-5">
+            <h3 class="fs-1 fw-5">Know Your Block</h3>
+            <p class="fs-5">
+              Kurkheda is a Village and a tehsil in the Gadchiroli district in
+              the Indian state of Maharashtra. According to the 2011 census the
+              village has a population of 379 living in 90 households. Its main
+              agriculture product is paddy growing.
+            </p>
+            <!-- <div class="grid"> -->
+            <div class="knowUrBlock-cards-holder">
+              <div class="knowUrBlock-cards pt-4 ps-5 pe-5 pb-4 rounded">
+                <div class="geo-info fs-4 fw-1">14,412 km2</div>
+                <div class="fs-5">Area</div>
+              </div>
+              <div class="knowUrBlock-cards pt-4 ps-5 pe-5 pb-4 rounded">
+                <div class="geo-info fs-4 fw-1">1,072,942</div>
+                <div class="fs-5">Population</div>
+              </div>
+              <div class="knowUrBlock-cards pt-4 ps-5 pe-5 pb-4 rounded">
+                <div class="geo-info fs-4 fw-1">25</div>
+                <div class="fs-5">Schools</div>
+              </div>
+              <div class="knowUrBlock-cards pt-4 ps-5 pe-5 pb-4 rounded">
+                <div class="geo-info fs-4 fw-1">70.55%</div>
+                <div class="fs-5">Literacy</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="word-info-block"></div>
+    </div>
+
+    <div class="container pt-2 pb-2">
+      <div class="row">
+        <div class="list-holder col-lg-8">
+          <div class="dropdown kurkheda-info">
+            <button
+              class="btn btn-secondary col-lg-8 dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Kurkheda Schools
+            </button>
+            <ul class="dropdown-menu col-lg-8">
+              <li>
+                <button class="dropdown-item" type="button">
+                  Shivaji High School,Kurkheda
+                </button>
+              </li>
+              <li>
+                <button class="dropdown-item" type="button">
+                  Aavan High School,Kurkheda
+                </button>
+              </li>
+              <li>
+                <button class="dropdown-item" type="button">
+                  Chhatrapati English Prm School,Kurkheda
+                </button>
+              </li>
+              <li>
+                <button class="dropdown-item" type="button">
+                  Laxmibai Girls High School,Kurkheda
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div class="dropdown kurkheda-info pt-2">
+            <button
+              class="btn btn-secondary col-lg-8 dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Block Access Distance
+            </button>
+            <ul class="dropdown-menu col-lg-8">
+              <li>
+                <button class="dropdown-item" type="button">
+                  68.8 km from Gadchiroli By Road.
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div class="dropdown kurkheda-info pt-2">
+            <button
+              class="btn btn-secondary col-lg-8 dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Internet Connection
+            </button>
+            <ul class="dropdown-menu col-lg-8">
+              <li><button class="dropdown-item" type="button">BSNL</button></li>
+              <li><button class="dropdown-item" type="button">JIO</button></li>
+            </ul>
+          </div>
+          <div class="dropdown kurkheda-info pt-2">
+            <button
+              class="btn btn-secondary col-lg-8 dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Area Covering From kurkheda
+            </button>
+            <ul class="dropdown-menu col-lg-8">
+              <li>
+                <button class="dropdown-item" type="button">
+                  Nanhi :1.7Km
+                </button>
+              </li>
+              <li>
+                <button class="dropdown-item" type="button">
+                  Kombhitola :2.0Km
+                </button>
+              </li>
+              <li>
+                <button class="dropdown-item" type="button">
+                  Andhali : 2.5Km
+                </button>
+              </li>
+              <li>
+                <button class="dropdown-item" type="button">
+                  Maldugi : 2.9Km
+                </button>
+              </li>
+              <li>
+                <button class="dropdown-item" type="button">
+                  Gewardha : 4.4Km
+                </button>
+              </li>
+              <li>
+                <button class="dropdown-item" type="button">
+                  Gothangaon : 5.2 km
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div class="dropdown kurkheda-info pt-2">
+            <button
+              class="btn btn-secondary col-lg-8 dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Area Covering From kurkheda
+            </button>
+            <ul class="dropdown-menu col-lg-8">
+              <li>
+                <button class="dropdown-item" type="button">
+                  Nanhi :1.7Km
+                </button>
+              </li>
+              <li>
+                <button class="dropdown-item" type="button">
+                  Kombhitola :2.0Km
+                </button>
+              </li>
+              <li>
+                <button class="dropdown-item" type="button">
+                  Andhali : 2.5Km
+                </button>
+              </li>
+              <li>
+                <button class="dropdown-item" type="button">
+                  Maldugi : 2.9Km
+                </button>
+              </li>
+              <li>
+                <button class="dropdown-item" type="button">
+                  Gewardha : 4.4Km
+                </button>
+              </li>
+              <li>
+                <button class="dropdown-item" type="button">
+                  Gothangaon : 5.2 km
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div class="dropdown kurkheda-info pt-2">
+            <button
+              class="btn btn-secondary col-lg-8 dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Area Covering From kurkheda
+            </button>
+            <ul class="dropdown-menu col-lg-8">
+              <li>
+                <button class="dropdown-item" type="button">
+                  Nanhi :1.7Km
+                </button>
+              </li>
+              <li>
+                <button class="dropdown-item" type="button">
+                  Kombhitola :2.0Km
+                </button>
+              </li>
+              <li>
+                <button class="dropdown-item" type="button">
+                  Andhali : 2.5Km
+                </button>
+              </li>
+              <li>
+                <button class="dropdown-item" type="button">
+                  Maldugi : 2.9Km
+                </button>
+              </li>
+              <li>
+                <button class="dropdown-item" type="button">
+                  Gewardha : 4.4Km
+                </button>
+              </li>
+              <li>
+                <button class="dropdown-item" type="button">
+                  Gothangaon : 5.2 km
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="image-holder col-lg-4 rounded-3"></div>
+      </div>
+    </div>
+    <!-- know your Block section end -->
+
+    <!-- sign up section start -->
+    <!-- <div class="signUp-section">
+        <div class="info-part">
+          <div>Reserve Your Seat</div>
+          <div>"Unlock boundless opportunities and knowledge by completing our quick and secure login form. Join our academy today and embark on a journey of lifelong learning and success!"</div>
+          <div><div>
+        </div>
+        <div class="image-part">
+
+        </div>
+      </div> -->
+    <!-- end sign up section-->
+
+    <!-- footer section start -->
+
+    <footer class="footer text-light">
+      <div class="container p-5">
+        <div class="row">
+          <div class="About-Us col-lg-4 text-center">
+            <div>
+              <i class="footer-image"
+                ><img
+                  src="Assets/icon-1.webp"
+                  height="60px"
+                  width="60px"
+                  alt=""
+              /></i>
+            </div>
+            <p><b>About Us</b></p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt
+          </div>
+          <div class="Address col-lg-4 text-center">
+            <div>
+              <i class="footer-image"
+                ><img
+                  src="Assets/icon-2.webp"
+                  height="60px"
+                  width="60px"
+                  alt=""
+              /></i>
+            </div>
+            <p><b>Address</b></p>
+            Gondwana University, M.I.D.C. Road Complex, Gadchiroli-442605
+            Maharashtra, India
+          </div>
+          <div class="Contacts col-lg-4 text-center">
+            <div>
+              <i class="footer-image"
+                ><img
+                  src="Assets/icon-3.webp"
+                  height="60px"
+                  width="60px"
+                  alt=""
+              /></i>
+            </div>
+            <p><b>Contacts</b></p>
+            Call: +919403050375 <br />
+            Email: pankaj.nandagiriwar@learnqoch.com
+          </div>
+        </div>
+        <hr />
+        <p class="text-center"><b>Alpha Academy</b></p>
+        <p class="text-center">
+          <input
+            type="text"
+            class="me-2 ps-3 pe-3 pt-2 pb-2 text-light"
+            id="footer-input"
+          /><button
+            type="submit"
+            id="footer-button"
+            class="ps-3 pe-3 pt-2 pb-2"
+          >
+            Submit
+          </button>
+        </p>
+        <p class="text-center"></p>
+        <div class="row">
+          <p class="text-center">
+            <i class="fa-brands fa-square-facebook fs-2"></i>
+            <i class="fa-brands fa-square-instagram fs-2"></i>
+            <i class="fa-brands fa-square-twitter fs-2"></i>
+          </p>
+          <p class="text-light text-center">
+            AlphaAcademy © 2024. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+<!-- <i class="fa-solid fa-book-open-reader fs-1"></i> -->
+<!-- <i class="fa-solid fa-location-dot fs-1"></i> -->
+<!-- <i class="fa-solid fa-globe fs-1"></i> -->

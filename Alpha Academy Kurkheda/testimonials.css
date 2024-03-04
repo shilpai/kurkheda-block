@@ -1,0 +1,43 @@
+body
+{
+    text-transform: none;
+}
+.testimonial-inner
+{
+    background-color:rgb(54, 54, 54);
+    height: 400px;
+}
+.carousel-item {
+    text-align: center;
+}
+.title{
+    font-family:inherit ;
+    /* color: rgb(255, 208, 0); */
+    color:#fcb900 ;
+}
+.name
+{
+    color:white;
+    font-family: inherit;
+    word-wrap: break-word;
+}
+.caoma
+{
+    color:  #313030;
+}
+.para
+{
+    color: white;
+}
+.endname
+{
+    color:  #383634;
+}
+#person{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-image: url("person-2.png");
+    /* z-index: 1; */
+    /* background: transparent; */
+}

@@ -1,0 +1,54 @@
+::-webkit-scrollbar{
+    /* display: none; */
+}
+*{
+    scroll-behavior: smooth;
+}
+.navigation-bar{
+    z-index: 3;
+}
+
+.courses{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* gap: 100px; */
+}
+.main-course{
+    /* background: linear-gradient(to right, red, rgb(216, 120, 120), rgb(200, 27, 56)); */
+    background-image: url(Assets/istockphoto-1489444307-612x612.jpg);
+    color:transparent ;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-size: cover;
+    /* height: 700px; */
+} 
+.benifits-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px; 
+}    
+.benifit-combo{
+    background-color: rgb(220, 219, 221);
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    }
+
+/* banner-img */
+    .banner-img {
+        height: 700px;
+        /* width: 100%; */
+      }
+      .bannerImg {
+        height: 100%;
+        object-fit: cover;
+      }
+    
+
+   

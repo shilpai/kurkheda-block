@@ -1,0 +1,38 @@
+.knowUrBlock-bg{
+    background-image: url(village-3062625.webp );
+    background-position: center;
+    background-size: cover;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+    /* font-weight: 900; */
+    
+}
+.blurBackground{
+    padding: 20px;
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0.381);
+}
+.knowUrBlock-bg> .blurBackground > h3{
+    /* font-weight: 900;
+    font-size: 32px; */
+}
+.knowUrBlock-cards-holder{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+.knowUrBlock-cards{
+    background-color: rgba(0, 0, 0, 0.533);
+    /* height: 170px; */
+    /* width: 170px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

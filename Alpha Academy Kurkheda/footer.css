@@ -1,0 +1,25 @@
+.footer{
+  background-color: rgb(74, 38, 11);
+}
+#footer-input{
+  background-color: rgba(42, 19, 2, 0.907);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+
+}
+#footer-button{
+  border-radius: 5px;
+  border: none;
+  background: rgb(116, 125, 1);
+}
+.footer-image{
+height: 10px;
+width: 10px;
+}
+  @media (max-width: 358px) {
+    .footer-social-media {
+      display: flex;
+      flex-direction: column;
+    }
+  }
